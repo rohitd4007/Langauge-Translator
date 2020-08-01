@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.chat {
+    height: 100vh;
+    background: #f1f0e8;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.profile {
+    width: 100%;
+    background: #036055;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.profile .icon {
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+
+.profile .pp {
+    display: inline-block;
+    width: 30px;
+    top: 19px;
+    position: absolute;
+}
+
+.profile h2 {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 20px;
+}
+
+.profile span {
+    color: #ccc;
+    position: absolute;
+    top: 42px;
+    left: 100px;
+    font-size: 14px;
+}
+
+.profile .vicon {
+    display: inline-block;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.profile .left {
+    flex: 1;
+}
+
+.chat-box {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 60px;
+    position: relative;
+}
+
+.footer textarea {
+    display: block;
+    flex: 1;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 60px;
+    margin: 5px;
+    outline: none;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 90px;
+    border: 2px solid #ccc;
+    color: #555;
+    resize: none;
+}
+
+.footer .rec {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+.footer .smile {
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 12px;
+    left: 10px;
+}
